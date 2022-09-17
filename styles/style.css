@@ -3,7 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    color: var(--body);
+}
+  :root{
+    --primary: #0d6efd;
+    --dark:#21252f;
+    --body:#888;
+    --box-shadow:08px 22px rgba(0,0,0,0.1);
+}
 
+/* h1,h2,h3,h4,h5,h6
+.display-4{
+
+    color: var(--body);
+}   */
+section{
+   
+    padding-top: 120px;
+    padding-bottom: 120px;;
 }
 
 
